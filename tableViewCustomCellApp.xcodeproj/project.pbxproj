@@ -20,6 +20,7 @@
 		933D411723639E15009A6FE8 /* Burger.png in Resources */ = {isa = PBXBuildFile; fileRef = 933D411123639E15009A6FE8 /* Burger.png */; };
 		933D411823639E15009A6FE8 /* Apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 933D411223639E15009A6FE8 /* Apple.png */; };
 		933D411C23639F70009A6FE8 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 933D411B23639F70009A6FE8 /* .gitignore */; };
+		933D411E2363A95D009A6FE8 /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933D411D2363A95D009A6FE8 /* FoodTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		933D411123639E15009A6FE8 /* Burger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Burger.png; sourceTree = "<group>"; };
 		933D411223639E15009A6FE8 /* Apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Apple.png; sourceTree = "<group>"; };
 		933D411B23639F70009A6FE8 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		933D411D2363A95D009A6FE8 /* FoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				933D410223639D51009A6FE8 /* Assets.xcassets */,
 				933D410423639D51009A6FE8 /* LaunchScreen.storyboard */,
 				933D410723639D51009A6FE8 /* Info.plist */,
+				933D411D2363A95D009A6FE8 /* FoodTableViewCell.swift */,
 			);
 			path = tableViewCustomCellApp;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				933D40FE23639D4E009A6FE8 /* ViewController.swift in Sources */,
+				933D411E2363A95D009A6FE8 /* FoodTableViewCell.swift in Sources */,
 				933D40FA23639D4E009A6FE8 /* AppDelegate.swift in Sources */,
 				933D40FC23639D4E009A6FE8 /* SceneDelegate.swift in Sources */,
 			);

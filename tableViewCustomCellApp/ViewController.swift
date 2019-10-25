@@ -19,14 +19,16 @@ class ViewController: UIViewController, UITableViewDataSource,UITableViewDelegat
         // Do any additional setup after loading the view.
         self.tableView.dataSource=self
         self.tableView.delegate=self
+        
+        self.tableView.reloadData()
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        <#code#>
+        return 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        <#code#>
+        return UITableViewCell()
     }
 
 
