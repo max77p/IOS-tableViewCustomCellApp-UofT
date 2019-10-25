@@ -13,6 +13,13 @@
 		933D410123639D4E009A6FE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 933D40FF23639D4E009A6FE8 /* Main.storyboard */; };
 		933D410323639D51009A6FE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 933D410223639D51009A6FE8 /* Assets.xcassets */; };
 		933D410623639D51009A6FE8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 933D410423639D51009A6FE8 /* LaunchScreen.storyboard */; };
+		933D411323639E15009A6FE8 /* Banana.png in Resources */ = {isa = PBXBuildFile; fileRef = 933D410D23639E15009A6FE8 /* Banana.png */; };
+		933D411423639E15009A6FE8 /* Fries.png in Resources */ = {isa = PBXBuildFile; fileRef = 933D410E23639E15009A6FE8 /* Fries.png */; };
+		933D411523639E15009A6FE8 /* Orange.png in Resources */ = {isa = PBXBuildFile; fileRef = 933D410F23639E15009A6FE8 /* Orange.png */; };
+		933D411623639E15009A6FE8 /* Pizza.png in Resources */ = {isa = PBXBuildFile; fileRef = 933D411023639E15009A6FE8 /* Pizza.png */; };
+		933D411723639E15009A6FE8 /* Burger.png in Resources */ = {isa = PBXBuildFile; fileRef = 933D411123639E15009A6FE8 /* Burger.png */; };
+		933D411823639E15009A6FE8 /* Apple.png in Resources */ = {isa = PBXBuildFile; fileRef = 933D411223639E15009A6FE8 /* Apple.png */; };
+		933D411C23639F70009A6FE8 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 933D411B23639F70009A6FE8 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		933D410223639D51009A6FE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		933D410523639D51009A6FE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		933D410723639D51009A6FE8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		933D410D23639E15009A6FE8 /* Banana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Banana.png; sourceTree = "<group>"; };
+		933D410E23639E15009A6FE8 /* Fries.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fries.png; sourceTree = "<group>"; };
+		933D410F23639E15009A6FE8 /* Orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Orange.png; sourceTree = "<group>"; };
+		933D411023639E15009A6FE8 /* Pizza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pizza.png; sourceTree = "<group>"; };
+		933D411123639E15009A6FE8 /* Burger.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Burger.png; sourceTree = "<group>"; };
+		933D411223639E15009A6FE8 /* Apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Apple.png; sourceTree = "<group>"; };
+		933D411B23639F70009A6FE8 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +54,7 @@
 		933D40ED23639D4E009A6FE8 = {
 			isa = PBXGroup;
 			children = (
+				933D411A23639F32009A6FE8 /* git */,
 				933D40F823639D4E009A6FE8 /* tableViewCustomCellApp */,
 				933D40F723639D4E009A6FE8 /* Products */,
 			);
@@ -56,6 +71,7 @@
 		933D40F823639D4E009A6FE8 /* tableViewCustomCellApp */ = {
 			isa = PBXGroup;
 			children = (
+				933D411923639E1B009A6FE8 /* images */,
 				933D40F923639D4E009A6FE8 /* AppDelegate.swift */,
 				933D40FB23639D4E009A6FE8 /* SceneDelegate.swift */,
 				933D40FD23639D4E009A6FE8 /* ViewController.swift */,
@@ -65,6 +81,27 @@
 				933D410723639D51009A6FE8 /* Info.plist */,
 			);
 			path = tableViewCustomCellApp;
+			sourceTree = "<group>";
+		};
+		933D411923639E1B009A6FE8 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				933D411223639E15009A6FE8 /* Apple.png */,
+				933D410D23639E15009A6FE8 /* Banana.png */,
+				933D411123639E15009A6FE8 /* Burger.png */,
+				933D410E23639E15009A6FE8 /* Fries.png */,
+				933D410F23639E15009A6FE8 /* Orange.png */,
+				933D411023639E15009A6FE8 /* Pizza.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		933D411A23639F32009A6FE8 /* git */ = {
+			isa = PBXGroup;
+			children = (
+				933D411B23639F70009A6FE8 /* .gitignore */,
+			);
+			path = git;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +162,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				933D411C23639F70009A6FE8 /* .gitignore in Resources */,
+				933D411823639E15009A6FE8 /* Apple.png in Resources */,
 				933D410623639D51009A6FE8 /* LaunchScreen.storyboard in Resources */,
 				933D410323639D51009A6FE8 /* Assets.xcassets in Resources */,
+				933D411423639E15009A6FE8 /* Fries.png in Resources */,
+				933D411323639E15009A6FE8 /* Banana.png in Resources */,
+				933D411723639E15009A6FE8 /* Burger.png in Resources */,
 				933D410123639D4E009A6FE8 /* Main.storyboard in Resources */,
+				933D411623639E15009A6FE8 /* Pizza.png in Resources */,
+				933D411523639E15009A6FE8 /* Orange.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
