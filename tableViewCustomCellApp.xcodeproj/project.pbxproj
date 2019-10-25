@@ -54,7 +54,7 @@
 		933D40ED23639D4E009A6FE8 = {
 			isa = PBXGroup;
 			children = (
-				933D411A23639F32009A6FE8 /* git */,
+				933D411B23639F70009A6FE8 /* .gitignore */,
 				933D40F823639D4E009A6FE8 /* tableViewCustomCellApp */,
 				933D40F723639D4E009A6FE8 /* Products */,
 			);
@@ -94,14 +94,6 @@
 				933D411023639E15009A6FE8 /* Pizza.png */,
 			);
 			path = images;
-			sourceTree = "<group>";
-		};
-		933D411A23639F32009A6FE8 /* git */ = {
-			isa = PBXGroup;
-			children = (
-				933D411B23639F70009A6FE8 /* .gitignore */,
-			);
-			path = git;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
