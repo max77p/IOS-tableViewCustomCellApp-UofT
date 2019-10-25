@@ -54,7 +54,6 @@
 		933D40ED23639D4E009A6FE8 = {
 			isa = PBXGroup;
 			children = (
-				933D411B23639F70009A6FE8 /* .gitignore */,
 				933D40F823639D4E009A6FE8 /* tableViewCustomCellApp */,
 				933D40F723639D4E009A6FE8 /* Products */,
 			);
@@ -71,6 +70,7 @@
 		933D40F823639D4E009A6FE8 /* tableViewCustomCellApp */ = {
 			isa = PBXGroup;
 			children = (
+				933D411B23639F70009A6FE8 /* .gitignore */,
 				933D411923639E1B009A6FE8 /* images */,
 				933D40F923639D4E009A6FE8 /* AppDelegate.swift */,
 				933D40FB23639D4E009A6FE8 /* SceneDelegate.swift */,
