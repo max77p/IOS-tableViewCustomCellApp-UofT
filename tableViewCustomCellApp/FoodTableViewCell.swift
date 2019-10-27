@@ -29,8 +29,12 @@ class FoodTableViewCell: UITableViewCell {
         self.caloriesLabel=UILabel(frame:CGRect(x:150,y:10,width:140,height:24))
         self.caloriesLabel?.text="\(calories) cal"
         
+        self.iconImageView=UIImageView(image: UIImage(named:image))
+        self.iconImageView?.frame=CGRect(x:270,y:2,width:40,height:40)
+        
         self.contentView.addSubview(self.nameLabel!)
         self.contentView.addSubview(self.caloriesLabel!)
+        self.contentView.addSubview(self.iconImageView!)
     }
 }
 
