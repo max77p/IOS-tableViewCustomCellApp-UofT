@@ -23,7 +23,14 @@ class FoodTableViewCell: UITableViewCell {
     }
     
     func setCell(name: String,calories:String, image:String){
+        self.nameLabel=UILabel(frame: CGRect(x:10,y:10,width:140,height:24))
+        self.nameLabel?.text=name
         
+        self.caloriesLabel=UILabel(frame:CGRect(x:150,y:10,width:140,height:24))
+        self.caloriesLabel?.text="\(calories) cal"
+        
+        self.contentView.addSubview(self.nameLabel!)
+        self.contentView.addSubview(self.caloriesLabel!)
     }
 }
 
