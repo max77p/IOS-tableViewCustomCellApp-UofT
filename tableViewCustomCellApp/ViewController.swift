@@ -59,6 +59,22 @@ class ViewController: UIViewController, UITableViewDataSource,UITableViewDelegat
         return cell
     }
 
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath){
+        if let foodName=self.foodData?[indexPath.row].name{
+            let alertController=UIAlertController(title: "Cell Selected", message:"You selected \(foodName)", preferredStyle: .actionSheet)
+            let okayAction = UIAlertAction(title: "Okay", style:.cancel, handler:nil)
+            alertController.addAction(okayAction)
+            
+            let printAction=UIAlertAction(title: "Print Food", style:.default){
+                (action) in
+                print("Selected food was: \(foodName)")
+            }
+            alertController.addAction(printAction)
+            self.present(alertController,animated:true,completion: nil)
+        }
+        
+        
+    }
 
 }
 
